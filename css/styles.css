@@ -151,7 +151,7 @@ background-color: rgb(47, 48, 58, 1);
     /* text button */
     color: rgba(255, 255, 255, 1);
     font-family: "Roboto";
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -168,7 +168,7 @@ background-color: rgb(47, 48, 58, 1);
   
  } 
 .section-title {
-    font-style: normal;
+   
 font-weight: 700;
 line-height: 1.17;
 font-size: 14px;
@@ -176,14 +176,14 @@ font-size: 14px;
 }
 .section-task {
     font-style: normal;  
-font-weight: 400;
+
 color: #757575;
 }
 /* Чим ми займаемося та наша команда--> */
 
 .section-made {
 
-font-style: normal; 
+
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -199,7 +199,7 @@ line-height: 1.17;
 .name {
 
 
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.17;
@@ -208,7 +208,7 @@ line-height: 1.17;
 }
 .position {
         font-style: normal;
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.19;
     /* identical to box height */
@@ -267,7 +267,7 @@ background: rgba(47, 48, 58, 1);
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 1/71;
+line-height: 1.71;
 /* or 171% */
 
 letter-spacing: 0.03em;
@@ -295,7 +295,7 @@ color: rgba(255, 255, 255, 0.6);
 .tel-footer {
     
 font-style: normal;
-font-weight: 400;
+
 font-size: 14px;
 line-height: 1.71;
 /* or 171% */
@@ -321,7 +321,7 @@ color: rgba(255, 255, 255, 0.6);
     
    
     font-family: "Roboto";
-    font-style: normal;
+    
     font-weight: 500px;
     font-size: 16px;
     line-height: 1.62;
@@ -358,7 +358,7 @@ color: rgba(255, 255, 255, 0.6);
         
         box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
         
-        border-color: brown;       
+        border-color: rgba(33, 150, 243, 1);       
         
         
         Fill: Solid;
@@ -366,7 +366,8 @@ color: rgba(255, 255, 255, 0.6);
         }
         .button-portfolio-all:focus,
     .button-portfolio-all:hover {
-    color:var(--body-text-color) ;
+    color:var(--body-text-color);
+    border-color: red;
     
 }
 
