@@ -28,7 +28,7 @@
 }
 /* logotype */
 .logo:hover {
-    color: blue;
+    color: rgba(33, 150, 243, 1);
 }
 .logo {
 font-family: "Raleway";
@@ -38,7 +38,7 @@ color: rgba(33, 150, 243, 1);
 text-decoration: none;
 }
 .accent:hover {
-    color: blue;
+    color: rgba(33, 150, 243, 1);
 }
 .accent {
 font-family: "Raleway";
@@ -50,7 +50,11 @@ color: rgb(0, 0, 1)
 .header .link:hover,
 .header .link:focus
   {
-    color: blue;
+    color: rgba(33, 150, 243, 1);
+}
+.link-mail {
+    text-decoration: none;
+    color: rgba(33, 150, 243, 1);
 }
 
 /* delete point from list */
@@ -159,9 +163,9 @@ background-color: rgb(47, 48, 58, 1);
 /* Особливості */
  .section {
     
-    font-size: 14px;
-    line-height: 1.71;
-/* or 171% */    
+    
+    
+  
  } 
 .section-title {
     font-style: normal;
@@ -227,7 +231,7 @@ background: rgba(47, 48, 58, 1);
 }
 .logo-footer .accent-footer:focus,
 .logo-footer .accent-footer:hover {
-    color: blue;}
+    color: rgba(33, 150, 243, 1);}
 
 .logo-footer {
     font-family: "Raleway";
@@ -237,6 +241,7 @@ background: rgba(47, 48, 58, 1);
     letter-spacing: 0.03em;
     text-align: left;
     text-decoration: none;
+    color:rgba(33, 150, 243, 1)
 }
 
 .accent-footer {
@@ -251,7 +256,7 @@ background: rgba(47, 48, 58, 1);
 }
 .map:focus,
 .map:hover {
-    color: blue;
+    color: rgba(33, 150, 243, 1);
 }
 
 
@@ -284,10 +289,7 @@ color: rgba(255, 255, 255, 0.6);
 
 
 }
-.mail-footer:focus,
-.mail-footer:hover {
-    color: blue;
-}
+
 .tel-footer {
     
 font-style: normal;
@@ -302,7 +304,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 .tel-footer:focus,
 .tel-footer:hover {
-    color: blue;
+    color: rgba(33, 150, 243, 1);
 }
 
 /* portfolio */
