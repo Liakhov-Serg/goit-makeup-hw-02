@@ -16,7 +16,7 @@
     font-size: 14px;
     font-style: normal;
     background-color:var(--primery-fon-color) ;
-
+font-weight: 400;
  
 }
 
@@ -170,7 +170,8 @@ background-color: rgb(47, 48, 58, 1);
 .section-title {
     font-style: normal;
 font-weight: 700;
-
+line-height: 1.17;
+font-size: 14px;
 
 }
 .section-task {
@@ -185,6 +186,7 @@ color: #757575;
 font-style: normal; 
 font-weight: 700;
 font-size: 36px;
+line-height: 1.17;
 
 }
 
@@ -340,8 +342,8 @@ color: rgba(255, 255, 255, 0.6);
     }
     .button-portfolio:hover {
     color: var(--body-text-color);
-    border-color: var(--body-text-color);
-    border-color: blue; 
+    border-color:  rgba(33, 150, 243, 1);
+     
 }
     /* button-portfolio-all */
     .button-portfolio-all {
